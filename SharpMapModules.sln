@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetLogonHistory", "SharpMap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetLsassSessions", "SharpMapModules\GetLsassSessions\GetLsassSessions.csproj", "{DBA70232-62D7-4BD0-88E6-258069244636}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvokeRecon", "SharpMapModules\GetSessionInfo\InvokeRecon.csproj", "{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetLsaSessions", "SharpMapModules\GetLsaSession\GetLsaSessions.csproj", "{5515FE48-8E28-4884-8996-2FF89A902E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvokeRecon", "SharpMapModules\InvokeRecon\InvokeRecon.csproj", "{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,14 +45,6 @@ Global
 		{DBA70232-62D7-4BD0-88E6-258069244636}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DBA70232-62D7-4BD0-88E6-258069244636}.Release|x64.ActiveCfg = Release|x64
 		{DBA70232-62D7-4BD0-88E6-258069244636}.Release|x64.Build.0 = Release|x64
-		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Debug|x64.Build.0 = Debug|Any CPU
-		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Release|x64.ActiveCfg = Release|Any CPU
-		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Release|x64.Build.0 = Release|Any CPU
 		{5515FE48-8E28-4884-8996-2FF89A902E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5515FE48-8E28-4884-8996-2FF89A902E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5515FE48-8E28-4884-8996-2FF89A902E0F}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -61,6 +53,14 @@ Global
 		{5515FE48-8E28-4884-8996-2FF89A902E0F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5515FE48-8E28-4884-8996-2FF89A902E0F}.Release|x64.ActiveCfg = Release|Any CPU
 		{5515FE48-8E28-4884-8996-2FF89A902E0F}.Release|x64.Build.0 = Release|Any CPU
+		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Debug|x64.Build.0 = Debug|Any CPU
+		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Release|x64.ActiveCfg = Release|Any CPU
+		{0030BC7E-511B-4E3A-A3AB-E04FA10A4C38}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
